@@ -1,0 +1,62 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  padding: 15px;
+  position: sticky;
+  background-color: #2c0e3a;
+}
+
+@media (min-width: 767px) {
+  .nav-container {
+    padding: 35px;
+  }
+}
+.game-icon {
+  height: 20px;
+}
+
+@media (min-width: 767px) {
+  .game-icon {
+    height: 35px;
+  }
+}
+.time-icon {
+  height: 20px;
+  margin-right: 5px;
+}
+.score-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 500;
+  margin-right: 8px;
+}
+@media (min-width: 767px) {
+  .para {
+    font-size: 14px;
+    margin-right: 13px;
+  }
+}
+.score-text {
+  color: #fec653;
+  margin-left: 3px;
+  font-size: 12px;
+  font-weight: 600;
+}
+@media (min-width: 767px) {
+  .score-text {
+    margin-left: 5px;
+    font-size: 16px;
+  }
+}
